@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWS CloudWatch Alarm Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    p {
+      text-align: center;
+      font-size: 18px;
+      color: #666;
+    }
+    .links {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    .links a:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Test AWS CloudWatch Alarms</h1>
+    <p><%= message %></p>
+    <div class="links">
+      <a href="/cpu-utilization">Simuler CPU Utilization</a>
+      <a href="/network-in">Simuler Network In</a>
+      <a href="/network-out">Simuler Network Out</a>
+      <a href="/status-check-failed">Simuler Status Check Failed</a>
+      <a href="/ebs-read-ops">Simuler EBS Read Ops</a>
+      <a href="/ebs-write-ops">Simuler EBS Write Ops</a>
+    </div>
+  </div>
+</body>
+</html>
